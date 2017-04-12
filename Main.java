@@ -89,6 +89,7 @@ public class Main {
                 if(boards[i] == selected[j]){
                     count++;
                     break;
+
                 }
             }
         }
