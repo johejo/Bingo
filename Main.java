@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         // write your code here
         int N;
-        String str = readAll("boards.txt");
+        String str = readAll("board.txt");
         String[] str2 = str.split("\n");
         N = str2.length;
         String[][] str4 = new String[N][N];
