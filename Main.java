@@ -88,6 +88,7 @@ public class Main {
             for (int j = 0; j < selected.length; j++){
                 if(boards[i] == selected[j]){
                     count++;
+                    break;
                 }
             }
         }
