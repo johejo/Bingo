@@ -23,7 +23,7 @@ public class Main {
             }
         }
 
-        String str3 = readAll("select.txt");
+        String str3 = readAll("selected.txt");
         String[] str5 = str3.split("\n");
         int[] selected = new int[str5.length];
 
